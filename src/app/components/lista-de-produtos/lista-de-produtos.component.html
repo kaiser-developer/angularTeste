@@ -1,0 +1,13 @@
+<div class="col-md-6">
+    <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">#</th>
+            <th scope="col">Produto</th>
+          </tr>
+        </thead>
+        <tbody>
+            <app-produto *ngFor="let produto of listaDeProdutos" [produto]="produto"></app-produto>
+        </tbody>
+    </table>
+</div>
